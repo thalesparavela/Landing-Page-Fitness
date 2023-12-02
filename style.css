@@ -1,0 +1,17 @@
+.page {
+  width: 1000px;
+  margin: 65px auto 0px;
+}
+body {
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+}
