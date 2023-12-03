@@ -1,9 +1,29 @@
 .page {
   width: 1000px;
-  margin: 65px auto 0px;
+  margin: 0 auto 0;
+  padding-top: 65px;
 }
 body {
   margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(
+    180deg,
+    rgba(227, 255, 248, 0) 82.08%,
+    rgba(227, 255, 248, 0.38) 100%
+  );
+
+  min-height: 100vh;
+}
+a {
+  text-decoration: none;
+  color: #1f1534;
+}
+ul li a {
+  opacity: 0.5;
+}
+ul li a:hover {
+  font-weight: bold;
+  opacity: 1;
 }
 nav {
   display: flex;
@@ -15,4 +35,58 @@ ul {
   display: flex;
   list-style: none;
   gap: 48px;
+}
+h1 {
+  font-size: 49px;
+  line-height: 56px;
+  color: #1f1534;
+  font-weight: lighter;
+  width: 490px;
+}
+h1 span {
+  color: #89c5cc;
+  font-weight: bold;
+}
+section p {
+  margin: 40px 0px;
+  font-size: 14px;
+  line-height: 28px;
+  color: #7d7987;
+}
+button {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  align-items: center;
+  width: 182px;
+  height: 56px;
+  justify-content: center;
+  gap: 10px;
+  background: #69b99d;
+  border: 0px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background: #4ea788;
+}
+footer {
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 80px;
+}
+footer a {
+  font-weight: bold;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
